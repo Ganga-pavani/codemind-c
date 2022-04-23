@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
-{ 
-    int n,r,sum=0,pro=1;
+{
+    int n,sum=0,r,pro=1;
     scanf("%d",&n);
     while(n>0)
     {
@@ -10,9 +10,9 @@ int main()
         pro=pro*r;
         n=n/10;
     }
-    if(sum==pro)
-    printf("Spy Number");
-    else
-    printf("Not Spy Number");
-    return 0;
+ if(sum==pro)
+ printf("Spy Number");
+ else
+ printf("Not Spy Number");
+ return 0;
 }
