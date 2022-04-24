@@ -1,13 +1,16 @@
 #include<stdio.h>
-#include<math.h>
 int main()
 {
-    int n,s;
+    int n,i;
     scanf("%d",&n);
-    s=sqrt(n);
-    if(s*s==n)
-    printf("True");
-    else
+    for(i=0;i<=n;i++)
+    {
+       if(n==i*i)
+         {
+             printf("True");
+             return 0;
+          }
+     }
     printf("False");
     return 0;
 }
