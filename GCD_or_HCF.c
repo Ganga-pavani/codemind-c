@@ -4,9 +4,17 @@ int main()
     int x,y;
     scanf("%d %d",&x,&y);
     if(x==0)
-    printf("%d",y);
+    {
+        printf("%d",y);
+    }
     else if(y==0)
-    printf("%d",x);
+    {
+        printf("%d",x);
+    }
+    else if(x==y)
+    {
+        printf("%d",x);
+    }
     else
     {
         while(x!=y)
@@ -17,7 +25,6 @@ int main()
             y=y-x;
         }
     }
-        printf("%d",x);
-        return 0;
-    
+    printf("%d",x);
+    return 0;
 }
