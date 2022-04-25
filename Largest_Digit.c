@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int n,r=0,large=0;
+    int n,r,sum=0,large=0;
     scanf("%d",&n);
     while(n>0)
     {
         r=n%10;
-        if(r>large)
+        if(large<r)
         {
             large=r;
         }
