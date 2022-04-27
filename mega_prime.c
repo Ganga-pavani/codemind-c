@@ -3,20 +3,20 @@ int fun(int num)
 {
     int i,fc=0;
     for(i=1;i<=num;i++)
-	{
-		if(num%i==0)
-		{
-			fc++;	
-		}	
-	}
-	if(fc==2)
-	{
-		return 1;
-	}
-	else
-	{
-		return 0;
-	}
+    {
+        if(num%i==0)
+        {
+            fc++;
+        }
+    }
+    if(fc==2)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
 }
 int main()
 {
@@ -44,8 +44,8 @@ int main()
             printf("Not Mega Prime");
         }
     }
-    else
-    {
-        printf("Not Mega Prime");
-    }
+        else
+        {
+            printf("Not Mega Prime");
+        }
 }
