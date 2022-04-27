@@ -18,11 +18,11 @@ int main()
     }
     if(n)
     {
-        printf("Not Unique Number");
+       printf("Not Unique Number");
     }
     else
     {
-        printf("Unique Number");
+       printf("Unique Number");
     }
     return 0;
 }
