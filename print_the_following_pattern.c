@@ -3,14 +3,20 @@ int main()
 {
     int i,n,j;
     scanf("%d",&n);
-    for(i=1;i<=n;i++)
-    {
-        for(j=1;j<=i;j++)
-        {
-            printf("%d",j);
-        }
-        printf("
+   for(i=0;i<n;i++)
+   {
+       for(j=0;j<n;j++)
+       {
+           if(i==n-1||j==0||i==j)
+           {
+               printf("*");
+           }
+           else
+           {
+               printf(" ");
+           }
+       }
+       printf("
 ");
-    }
-    return 0;
+   }
 }
